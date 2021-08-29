@@ -1,0 +1,31 @@
+:root{
+    --primary-color : #D1D5DB;
+    --secondary-color: #E0E7FF;
+}
+
+body{
+    background-color: var(--primary-color);
+    margin: auto;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    background-color: var(--secondary-color);
+    width: 50%;
+}
+
+input{
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 30%;
+    display: block;
+}
+
+#submit{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    width: 10%;
+    margin-top: 2rem;
+}
